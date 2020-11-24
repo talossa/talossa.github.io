@@ -1,0 +1,101 @@
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url(https://scontent-amt2-1.cdninstagram.com/v/t51.2885-15/e35/124881496_206462710832573_1753253873525859856_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com&_nc_cat=105&_nc_ohc=97_aEYOffLkAX_JDUQO&tp=1&oh=a1f8274a25b53aa664fb9f6e3579ce95&oe=5FE5C229);
+
+  /* Add the blur effect */
+  filter: blur(.px);
+  -webkit-filter: blur(.px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.crossfade > figure {
+  animation: imageAnimation 30s linear infinite 0s;
+  backface-visibility: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: transparent;
+  height: 100%;
+  left: -31px;
+  opacity: 0;
+  position: absolute;
+  top: -7.5px;
+  width: 100%;
+  z-index: 0;
+}
+
+.crossfade > figure:nth-child(1) { background-image: url(https://scontent-amt2-1.cdninstagram.com/v/t51.2885-15/e35/124881496_206462710832573_1753253873525859856_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com&_nc_cat=105&_nc_ohc=97_aEYOffLkAX_JDUQO&tp=1&oh=a1f8274a25b53aa664fb9f6e3579ce95&oe=5FE5C229); }
+
+.crossfade > figure:nth-child(2) {
+  animation-delay: 6s;
+  background-image: url(https://scontent-amt2-1.cdninstagram.com/v/t51.2885-15/e35/124626162_382829963161770_763199808795144807_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com&_nc_cat=106&_nc_ohc=yXhtCfO6RVgAX9Cg-9s&tp=1&oh=59b0a6c4448872ce2fce8c7b948a3687&oe=5FE77AB3);
+}
+
+.crossfade > figure:nth-child(3) {
+  animation-delay: 12s;
+  background-image: url(https://scontent-amt2-1.cdninstagram.com/v/t51.2885-15/e35/124625619_856634858414705_1122297821252395317_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com&_nc_cat=105&_nc_ohc=HHFhNBIqrmgAX8TDved&tp=1&oh=005aaf74bc673ed93db844c193362046&oe=5FE732D1);
+}
+
+.crossfade > figure:nth-child(4) {
+  animation-delay: 18s;
+  background-image: url(https://scontent-ams4-1.cdninstagram.com/v/t51.2885-15/e35/124570322_127877345501788_2934639866485178342_n.jpg?_nc_ht=scontent-ams4-1.cdninstagram.com&_nc_cat=104&_nc_ohc=dpt1_KWsTwIAX_m1Dcx&tp=1&oh=cc677adcc53bbfa331f68cdd1e8044b7&oe=5FE6E72E);
+}
+
+.crossfade > figure:nth-child(5) {
+  animation-delay: 24s;
+  background-image: url(https://scontent-ams4-1.cdninstagram.com/v/t51.2885-15/e35/125223129_180879570307196_6765119164936860195_n.jpg?_nc_ht=scontent-ams4-1.cdninstagram.com&_nc_cat=108&_nc_ohc=XWu6RahgsJsAX9GSlFl&tp=1&oh=9f79b48d50f8e1dfc811b4da3c01dfdd&oe=5FE575D8);
+}
+
+@keyframes
+imageAnimation {  0% {
+ animation-timing-function: ease-in;
+ opacity: 0;
+}
+ 8% {
+ animation-timing-function: ease-out;
+ opacity: 1;
+}
+ 17% {
+ opacity: 1
+}
+ 25% {
+ opacity: 0
+}
+ 100% {
+ opacity: 0
+}
+}
