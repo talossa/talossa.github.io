@@ -8,8 +8,7 @@ body, html {
 
 .bg-image {
   /* The image used */
-  background-image: url(https://scontent-ams4-1.cdninstagram.com/v/t51.2885-15/e35/120844077_704168363639956_2865192983208013555_n.jpg?_nc_ht=scontent-ams4-1.cdninstagram.com&_nc_cat=104&_nc_ohc=_PMOCXRrMukAX8EoUto&tp=1&oh=beb168d58e0d07a332a40a95e77c0212&oe=5FE8DBB6);
-
+  background-image: url(https://unni.s-ul.eu/nGyd0hMN);
   /* Add the blur effect */
   filter: blur(.px);
   -webkit-filter: blur(.px);
@@ -58,26 +57,26 @@ body, html {
   z-index: 0;
 }
 
-.crossfade > figure:nth-child(1) { background-image: url(https://scontent-amt2-1.cdninstagram.com/v/t51.2885-15/e35/124881496_206462710832573_1753253873525859856_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com&_nc_cat=105&_nc_ohc=97_aEYOffLkAX_JDUQO&tp=1&oh=a1f8274a25b53aa664fb9f6e3579ce95&oe=5FE5C229); }
+.crossfade > figure:nth-child(1) { background-image: url(https://unni.s-ul.eu/SplfBYVu); }
 
 .crossfade > figure:nth-child(2) {
   animation-delay: 6s;
-  background-image: url(https://scontent-amt2-1.cdninstagram.com/v/t51.2885-15/e35/124626162_382829963161770_763199808795144807_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com&_nc_cat=106&_nc_ohc=yXhtCfO6RVgAX9Cg-9s&tp=1&oh=59b0a6c4448872ce2fce8c7b948a3687&oe=5FE77AB3);
+  background-image: url(https://unni.s-ul.eu/EeMxoPcS);
 }
 
 .crossfade > figure:nth-child(3) {
   animation-delay: 12s;
-  background-image: url(https://scontent-amt2-1.cdninstagram.com/v/t51.2885-15/e35/124625619_856634858414705_1122297821252395317_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com&_nc_cat=105&_nc_ohc=HHFhNBIqrmgAX8TDved&tp=1&oh=005aaf74bc673ed93db844c193362046&oe=5FE732D1);
+  background-image: url(https://unni.s-ul.eu/LiwjC47A);
 }
 
 .crossfade > figure:nth-child(4) {
   animation-delay: 18s;
-  background-image: url(https://scontent-ams4-1.cdninstagram.com/v/t51.2885-15/e35/124570322_127877345501788_2934639866485178342_n.jpg?_nc_ht=scontent-ams4-1.cdninstagram.com&_nc_cat=104&_nc_ohc=dpt1_KWsTwIAX_m1Dcx&tp=1&oh=cc677adcc53bbfa331f68cdd1e8044b7&oe=5FE6E72E);
+  background-image: url(https://unni.s-ul.eu/pdH72H5L);
 }
 
 .crossfade > figure:nth-child(5) {
   animation-delay: 24s;
-  background-image: url(https://scontent-ams4-1.cdninstagram.com/v/t51.2885-15/e35/125223129_180879570307196_6765119164936860195_n.jpg?_nc_ht=scontent-ams4-1.cdninstagram.com&_nc_cat=108&_nc_ohc=XWu6RahgsJsAX9GSlFl&tp=1&oh=9f79b48d50f8e1dfc811b4da3c01dfdd&oe=5FE575D8);
+  background-image: url(https://unni.s-ul.eu/GXcUQlJ5);
 }
 
 @keyframes
