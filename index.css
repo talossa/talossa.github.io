@@ -36,7 +36,6 @@ td {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-family: 'Archivo Black', sans-serif;
 }
 
 h1 {
@@ -45,6 +44,7 @@ h1 {
   color: #fff;
   margin-bottom: 0;
   background-color: #000;
+  font-family: 'Taviraj', serif;
 }
 
 p {
@@ -52,6 +52,7 @@ p {
   color: #fff;
   margin-top: 0;
   background-color: #000;
+  font-family: 'Forum', serif;
 }
 
 .links {
@@ -59,6 +60,7 @@ p {
   justify-content: center;
   align-items: center;
   background-color: #000;
+  font-family: 'Forum', serif;
 }
 
 a {
