@@ -742,5 +742,3 @@ body { background-color: theme; background-image: theme; }
 /*# sourceMappingURL=styles.css.map */
 
 #sidebar-items {   display: inline-block;  vertical-align: middle;  line-height: normal; }
-
-dialog { background-color: black; color: white; max-width:60%;}
