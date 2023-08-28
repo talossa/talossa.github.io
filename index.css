@@ -730,7 +730,7 @@ blockquote { color: white; font-family: Helvetica, Arial, -apple-system, BlinkMa
 
 @media (max-width: 1200px) { .sidenote { display: none; } .sidebar-link-box { overflow-x: hidden; } .sidebar-link-box ul { font-size: smaller; } }
 
-@media (max-width: 800px) { .sidebar-link-box { line-height: 0.8em; } .sidebar-card { padding: 0.5em; } .toc-container { margin: auto; max-width: 80%; } .related h2 { text-align: left; } .post-content { padding: 0em; margin: 0em; } .prev-next { padding: 2em; display: none; } .prev-next a { padding: 1em; } .backlinks-container { width: 80%; } .archive-grid { grid-template-columns: 100%; grid-gap: 0.5em; background-color: black; padding: 1em; margin: auto; } .left-aside, .right-aside, .right, .left { width: 80%; float: none; } code { overflow-x: scroll; } }
+@media (max-width: 800px) { .sidebar-link-box { line-height: 0.8em; } .sidebar-card { padding: 0.5em; } .toc-container { margin: auto; max-width: 80%; } .related h2 { text-align: right; } .post-content { padding: 0em; margin: 0em; } .prev-next { padding: 2em; display: none; } .prev-next a { padding: 1em; } .backlinks-container { width: 80%; } .archive-grid { grid-template-columns: 100%; grid-gap: 0.5em; background-color: black; padding: 1em; margin: auto; } .left-aside, .right-aside, .right, .left { width: 80%; float: none; } code { overflow-x: scroll; } }
 
 /*----------------------------- CUSTOM BACKGROUND  Uncomment one of the below lines to override the background color/image of your chosen theme. 'theme' will leave the default theme background. */
 /* <-- leave default theme BG color */
@@ -740,3 +740,7 @@ blockquote { color: white; font-family: Helvetica, Arial, -apple-system, BlinkMa
 body { background-color: theme; background-image: theme; }
 
 /*# sourceMappingURL=styles.css.map */
+
+#sidebar-items {   display: inline-block;  vertical-align: middle;  line-height: normal; }
+
+dialog { background-color: black; color: white; max-width:60%;}
