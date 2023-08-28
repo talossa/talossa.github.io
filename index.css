@@ -488,7 +488,7 @@ main { padding: 1em auto; }
 
 .home-double img { width: 100%; border: thin solid white; }
 
-.midcolumn-home { margin: auto auto; width: 600px; height: 100vh; }
+.midcolumn-home { margin: auto auto; width: 600px; height: 100%; }
 
 .home-menu section { display: grid; grid-template-columns: 50% 50%; }
 
