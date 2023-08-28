@@ -1,67 +1,99 @@
 <!DOCTYPE html>
- <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="/index.css">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta property="og:type" content="website">
-  
+
 
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <title>unni.fi</title>
-    <meta content="unni.fi" property="og:title" />
-    <meta content="@unnifi everywhere" property="og:description" />
-    <meta content="https://unni.fi/" property="og:url" />
-    <meta content="https://c.tenor.com/RUCmdkzaIsoAAAAd/cat-wet.gif" property="og:image" />
-    <meta content="#ff4d4d" data-react-helmet="true" name="theme-color" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <title>unni.fi</title>
+  <meta content="unni.fi" property="og:title" />
+  <meta content="@unnifi everywhere" property="og:description" />
+  <meta content="https://unni.fi/" property="og:url" />
+  <meta content="https://c.tenor.com/RUCmdkzaIsoAAAAd/cat-wet.gif" property="og:image" />
+  <meta content="#ff4d4d" data-react-helmet="true" name="theme-color" />
 
-</head>  
+</head>
 
 <html lang="en-GB">
-  <body>
-      <div class="container-lg markdown-body wrapper">
 
-<div class="midcolumn-home">
-<div class="home-double">
+<body>
+  <div class="container-lg markdown-body wrapper">
 
-  <div></div>
-  <div class="title">
-    <h1 class="title-text">Unni Ulmanen</h1>
-      <h2 class="subtitle-text">Helsinki, Finland</h2>
-    </div>
+    <div class="midcolumn-home">
+      <div class="home-double">
 
-  <div class="sidebar-card related">	
-      <h2><a class="silent-link" href="/ig">Instagram</a></h2>
-      <h2><a class="silent-link" href="/twitter">X (Twitter)</a></h2>
-      <h2><a class="silent-link" href="/info">Info</a></h2>
-        <!--h2><a class="silent-link" href="/">etc</a></h2>
+        <div></div>
+        <div class="title">
+          <h1 class="title-text">Unni Ulmanen</h1>
+          <h2 class="subtitle-text">Helsinki, Finland</h2>
+          <dialog id="infoDialog">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ipsum consequat nisl vel pretium. Quis lectus nulla at volutpat diam. Enim tortor at
+              auctor urna nunc id cursus metus. Sit amet porttitor eget dolor morbi non arcu risus. Arcu risus quis
+              varius quam quisque. Ultrices sagittis orci a scelerisque purus semper. Donec et odio pellentesque diam.
+              Eget magna fermentum iaculis eu non diam. Etiam erat velit scelerisque in.
+              <br><br>
+              Volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque. Vitae elementum curabitur
+              vitae nunc sed velit. Aliquam nulla facilisi cras fermentum odio eu feugiat. Morbi tristique senectus et
+              netus et malesuada. Sagittis purus sit amet volutpat consequat mauris nunc congue. Tempor commodo
+              ullamcorper a lacus. Fringilla urna porttitor rhoncus dolor purus. Sollicitudin tempor id eu nisl nunc mi
+              ipsum. Non pulvinar neque laoreet suspendisse interdum consectetur libero id. Nisl tincidunt eget nullam
+              non nisi est sit amet.
+              <br><br>
+              <a id="hideDialog">Close</a>
+            </p>
+          </dialog>
+        </div>
+
+        <div class="sidebar-card related" style="display: table-cell; vertical-align:middle;">
+          <h2><a class="silent-link" href="/ig">Instagram</a></h2>
+          <h2><a class="silent-link" href="/twitter">X (Twitter)</a></h2>
+          <h2><a class="silent-link" id="showDialog">Info</a></h2>
+          <!--h2><a class="silent-link" href="/">etc</a></h2>
           <h2><a class="silent-link" href="/">etc</a></h2>
           <h2><a class="silent-link" href="/">etc</a></h2>
           <h2><a class="silent-link" href="/">etc</a></h2 -->
-     </div>
+        </div>
 
 
-  <div>
-    <!-- a class = "imglink" href="/"-->
-      <img src="/pic.jpg">
-    <!-- </a> -->
-    <div style="text-align:center;">
-      <h2 class="subtitle-text">Under Construction</h2>
-      <a class="internal-link" href="https://viralpubliclicense.org">
-    Copyleft (ɔ) All Rights Reversed</a>
+        <div>
+          <!-- a class = "imglink" href="/"-->
+          <img src="/pic.jpg">
+          <!-- </a> -->
+          <div style="text-align:center;">
+            <h2 class="subtitle-text">Under Construction</h2>
+            <a class="internal-link" style="font-size:.85em; font-family:monospace;"
+              href="https://viralpubliclicense.org"> Copyleft (ɔ) All Rights Reversed</a>
+          </div>
+        </div>
+
+
+      </div>
+
     </div>
-  </div>
 
-
- </div>
-
-</div>
+    <script>
+      const showDialog = document.getElementById("showDialog");
+      const hideDialog = document.getElementById("hideDialog");
+      const infoDialog = document.getElementById("infoDialog");
+      showDialog.addEventListener("click", () => {
+        infoDialog.showModal();
+      });
+      hideDialog.addEventListener("click", () => {
+        infoDialog.close();
+      });
+    </script>
 
     <script>anchors.add('.post-content h2, h3, h4, h5, h6');</script>
-  </body>
+</body>
+
 </html>
