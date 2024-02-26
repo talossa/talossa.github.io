@@ -474,6 +474,8 @@ main { padding: 1em auto; }
 
 .sidebar-card h2 { width: 100%; text-align: right; float: right; padding-right: 1em; text-decoration: underline; }
 
+.sidebar-card p { width: 100%; text-align: right; float: right; padding-right: 1em; }
+
 .related-table { padding-right: -3em; line-height: 1.6em; }
 
 .related-table a { text-align: justify; }
