@@ -295,7 +295,7 @@ article { margin-bottom: 0.5em; }
 
 body { box-sizing: content-box; line-height: 1.1em; overflow-x: hidden; color: white; font-size: 1rem; }
 
-body { font-family: serif; overflow-x: hidden; font-size: 1rem; background-color: black; }
+body { font-family: 'Linux Libertine O', serif; overflow-x: hidden; font-size: 1rem; background-color: black; }
 
 .post-content img { max-width: 100%; display: block; margin: 0 auto; max-height: 75vh; border-radius: none; width: 80%; }
 
