@@ -22,7 +22,7 @@
      *
      * Alternatively, create your own in the <style> tag below!
      */
-    theme: 'gruvbox-dark',
+    theme: 'ocean-light',
 
     /**
      * Action to take when the clock is clicked. Options include:
@@ -95,7 +95,7 @@
      * time, you'd type "q'cats".
      */
     scripts: {
-      q: ['bin', 'yah', 'eco', 'ddg', '*'],
+      q: ['w', 'f', '*'],
     },
 
     /**
@@ -168,18 +168,16 @@
         url: 'https://fi.wikipedia.org/wiki/Wikipedia:Etusivu',
       },
       {
+        key: 'b',
+        search: '/search/{}/',
+        url: 'https://letterboxd.com/unnifi/films/by/entry-rating',
+      },
+      {
         hues: ['203', '183'],
         key: 'x',
         name: 'Twitter',
         search: '/search?q={}',
         url: 'https://twitter.com/home',
-      },
-      {
-        hues: ['5', '345'],
-        key: 'y',
-        name: 'YouTube',
-        search: '/results?search_query={}',
-        url: 'https://youtube.com',
       },
       {
         hues: ['226', '236'],
@@ -193,6 +191,13 @@
         key: 'u',
         name: 'Yle Uutiset',
         url: 'https://yle.fi',
+      },
+      {
+        hues: ['226', '236'],
+        key: 'e',
+        name: 'FMI Weather',
+        search: '/local-weather/{}?forecast=daily',
+        url: 'https://en.ilmatieteenlaitos.fi/local-weather/helsinki/myllypuro?forecast=daily',
       },
       {
         hues: ['217', '237'],
@@ -237,6 +242,13 @@
         url: 'https://calendar.google.com/calendar/u/0/r',
       },
       {
+        hues: ['5', '345'],
+        key: 'y',
+        name: 'YouTube',
+        search: '/results?search_query={}',
+        url: 'https://youtube.com',
+      },
+      {
         hues: ['214', '234'],
         key: 'n',
         name: 'Nebula',
@@ -248,7 +260,7 @@
         key: 'v',
         name: 'Movie-web',
         search: '/movie-web/#/browse/{}',
-        url: './movie-web',
+        url: 'https://unni.fi/movie-web',
       },
       {
         hues: ['337', '317'],
@@ -261,13 +273,6 @@
         key: 'l',
         name: 'Classroom',
         url: 'https://classroom.google.com',
-      },
-      {
-        hues: ['226', '236'],
-        key: 'e',
-        name: 'FMI Weather',
-        search: '/local-weather/{}?forecast=daily',
-        url: 'https://en.ilmatieteenlaitos.fi/local-weather/helsinki/myllypuro?forecast=daily',
       },
       {
         hues: ['230', '280'],
